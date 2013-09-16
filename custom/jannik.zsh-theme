@@ -28,7 +28,7 @@ zstyle ':vcs_info:*:*' nvcsformats "%~" ""
 
 # left prompt
 # host@user:path %
-PROMPT=$'%{$my_gray%}%B%n%b%{$reset_color%}@%{$my_lightgray%}%m%{$reset_color%}:%B%{$fg[green]%}${PWD/#$HOME/~}%{$reset_color%}%b %# '
+PROMPT=$'%{$my_gray%}%B%n%b%{$reset_color%}@%{$fg[blue]%}%m%{$reset_color%}:%B%{$fg[green]%}${PWD/#$HOME/~}%{$reset_color%}%b %# '
 
 # right prompt
 # last command result; vcs; time
